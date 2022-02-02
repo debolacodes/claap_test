@@ -18,7 +18,7 @@ interface User{
     lastName: string
     email: string
     id: string
-    anchor?:string 
+    anchor?: string 
 }
 interface IProps{
     onClose: () => void;
@@ -202,18 +202,6 @@ export default function InviteTeammates(props: IProps) {
             lastName: 'Agosta',
             id: (Math.random() * 1000).toString(),
             email: 'tristan@claap.com'
-        },
-        {
-            firstName: 'Bola',
-            lastName: 'Agosta',
-            id: (Math.random() * 1000).toString(),
-            email: 'tristan2@claap.com'
-        },
-        {
-            firstName: 'Seyi',
-            lastName: 'Agosta',
-            id: (Math.random() * 1000).toString(),
-            email: 'seyi@claap.com'
         }
     ]
 
