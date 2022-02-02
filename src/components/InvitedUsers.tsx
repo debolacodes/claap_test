@@ -39,8 +39,8 @@ export default function InvitedUsers(props: IProps) {
               fontSize="12px"
               fontWeight="bold"
               mb="20px"
-              >An Invitation has been sent to your Teammates: </Text>
-  <List spacing={3}>
+              >Invitation sent to: </Text>
+              <List spacing={3}>
                 {props.selectedUsers.map((thisUser, index)=>{
                 return(
                 <ListItem key={index}>
@@ -59,6 +59,6 @@ export default function InvitedUsers(props: IProps) {
                 </ListItem>
                 )})}
               </List>
-              </Box>
+            </Box>
   )
 }
